@@ -1,0 +1,23 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./styles/mediaQ";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+
+  @include responsive(tablet) {
+    font-size: 78%;
+  }
+  @include responsive(phone) {
+    font-size: 65%;
+  }
+  @include responsive(big-desktop) {
+    font-size: 150%;
+  }
+}

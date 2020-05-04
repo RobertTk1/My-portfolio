@@ -1,0 +1,147 @@
+@import "./mediaQ";
+
+.skills {
+  min-height: 95vh;
+  @include responsive(phone) {
+    padding-top: 1rem;
+  }
+}
+
+.title {
+  position: sticky;
+  top: 1rem;
+  font-size: 2.6rem;
+  color: rgb(201, 67, 67);
+  font-weight: 800;
+  z-index: 3;
+  margin-left: 1rem;
+  @include responsive(tablet) {
+    position: relative;
+    z-index: 1;
+  }
+}
+.list {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  grid-gap: 4rem;
+  padding: 2rem;
+
+  @include responsive(phone) {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+
+  .developement {
+    background-color: rgb(29, 28, 28);
+    text-align: center;
+    border-radius: 20px;
+
+    .devtitle {
+      color: white;
+      font-size: 1.4rem;
+      font-weight: 600;
+      border-bottom: 0.5px solid white;
+
+      .fa-cogs {
+        color: rgb(170, 159, 3);
+      }
+    }
+
+    ul {
+      padding: 0 6rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 0.5rem;
+      list-style: none;
+      margin-top: 1.5rem;
+
+      transition: padding 1s;
+
+      @include responsive(tablet) {
+        padding: 0 3rem;
+      }
+
+      @include responsive(phone) {
+        font-size: 140%;
+      }
+
+      li {
+        p {
+          color: white;
+          font-size: 0.8rem;
+          font-weight: 600;
+        }
+        .fa-js {
+          color: rgb(235, 219, 5);
+        }
+
+        .fa-html5 {
+          color: rgba(247, 150, 40, 0.644);
+        }
+        .fa-css3-alt {
+          color: rgb(89, 89, 252);
+        }
+
+        .fa-react {
+          color: rgb(44, 171, 221);
+        }
+        .fa-sass {
+          color: #c69;
+        }
+
+        .fa-bootstrap {
+          color: #655aaf;
+        }
+
+        .fa-git-alt {
+          color: #f34f29;
+        }
+      }
+
+      .icon-background {
+        color: rgb(70, 69, 69);
+      }
+    }
+  }
+
+  .tools {
+    @include responsive(phone) {
+      text-align: center;
+      padding: 0 3rem;
+    }
+    .tool-title {
+      color: white;
+      font-size: 1.4rem;
+      font-weight: 600;
+      border-bottom: 0.5px solid white;
+
+      .fa-tools {
+        color: rgb(44, 171, 221);
+      }
+    }
+
+    ul {
+      margin-top: 1.5rem;
+      color: white;
+      list-style: none;
+
+      @include responsive(phone) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: start;
+        grid-column-gap: 4rem;
+      }
+
+      li::before {
+        content: "✔ ";
+        color: rgb(44, 171, 221);
+      }
+
+      li {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-top: 1.5rem;
+      }
+    }
+  }
+}

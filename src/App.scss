@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./styles/mediaQ";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background: black;
+  overflow-x: hidden;
+}

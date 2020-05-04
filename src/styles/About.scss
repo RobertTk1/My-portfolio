@@ -1,0 +1,89 @@
+@import "./mediaQ";
+
+.about {
+  height: 92vh;
+
+  @include responsive(tablet) {
+    padding: 0 0.8rem;
+  }
+
+  @include responsive(phone) {
+    padding: 0 1.5rem;
+  }
+
+  .about-title {
+    text-align: end;
+    margin-right: 0.8rem;
+    font-size: 2.6rem;
+    color: white;
+    font-weight: 800;
+    @include responsive(phone) {
+      margin-right: 0;
+    }
+
+    span {
+      color: rgb(80, 248, 89);
+    }
+  }
+
+  .about-info {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 40rem;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    font-size: 1rem;
+    max-height: 70vh;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    @include responsive(tablet) {
+      letter-spacing: 1px;
+    }
+    @include responsive(phone) {
+      margin-top: 5rem;
+    }
+
+    h6 {
+      border-bottom: 0.5px solid rgb(80, 248, 89);
+      font-weight: 600;
+    }
+  }
+
+  .about-links {
+    margin-top: 7rem;
+    text-align: center;
+
+    span {
+      margin: 0 4rem;
+      @include responsive(tablet) {
+        margin: 0 2rem;
+      }
+
+      .fa-github {
+        color: white;
+        &:hover {
+          color: rgb(211, 206, 206);
+        }
+      }
+      .contact {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+        border-bottom: 0.5px dashed rgb(80, 248, 89);
+        text-decoration: none;
+        &:hover {
+          color: rgb(211, 206, 206);
+          border-bottom: 0.5px dashed rgb(245, 245, 245);
+        }
+      }
+      .fa-linkedin {
+        color: #0e76a8;
+        &:hover {
+          color: rgb(211, 206, 206);
+        }
+      }
+    }
+  }
+}
