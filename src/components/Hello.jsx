@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Hello.scss";
 import Navbar from "./Navbar";
 import { Link } from "react-scroll";
+
 export default function About() {
   return (
     <div className="hello" id="Hello">
@@ -11,6 +12,9 @@ export default function About() {
         <h2>I am Robert</h2>
         <div className="Info">
           <h3>Software Developer</h3>
+
+          {/**Link for GitHub contact and linked in */}
+
           <span>
             <a
               href="https://github.com/RobertTk1?tab=repositories"
