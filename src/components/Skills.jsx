@@ -11,6 +11,8 @@ export default function s() {
             <i className="fas fa-cogs"></i> Developement
           </span>
           <ul>
+            {/**List of skills */}
+
             <li>
               <span className="fa-stack fa-2x">
                 <i className="fas fa-circle fa-stack-2x icon-background"></i>
@@ -102,6 +104,8 @@ export default function s() {
             <i className="fas fa-tools"></i> Tools & Other
           </span>
           <ul>
+            {/**list of tools */}
+
             <li>GitHub</li>
             <li>Vs Code</li>
             <li>Sublime Text</li>

@@ -20,6 +20,7 @@
     z-index: 1;
   }
 }
+
 .list {
   display: grid;
   grid-template-columns: 2fr 1.5fr;
@@ -64,7 +65,7 @@
       @include responsive(phone) {
         font-size: 140%;
       }
-
+      //List of skills
       li {
         p {
           color: white;
@@ -131,7 +132,7 @@
         text-align: start;
         grid-column-gap: 4rem;
       }
-
+      //List of tools
       li::before {
         content: "✔ ";
         color: rgb(44, 171, 221);
