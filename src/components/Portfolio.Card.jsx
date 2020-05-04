@@ -4,6 +4,7 @@ export default function ProjectCard({ project }) {
   return (
     <div className="flip-card">
       <div className="flip-card-inner">
+        {/** project informations passed from Portfolio component */}
         <div
           className="flip-card-front"
           style={{ backgroundImage: `url(${project.image})` }}

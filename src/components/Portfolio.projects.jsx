@@ -1,6 +1,24 @@
 import weather from "../media/weatherio.PNG";
 import beam from "../media/beam.PNG";
 
+{
+  /**Project screenshots must be put in the media folder, and imported Above */
+}
+
+{
+  /** use project information template bellow to add new projects:
+  {
+    name: "",
+    image: ,//Imported image 
+    about: "",
+    stack: [" "],
+    github: "",
+    website: "",
+  }
+
+*/
+}
+
 let projects = [
   {
     name: "weather.io",
