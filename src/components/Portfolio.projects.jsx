@@ -1,12 +1,11 @@
 import weather from "../media/weatherio.PNG";
 import beam from "../media/beam.PNG";
+import tundra from "../media/tundra.PNG";
 
-{
-  /**Project screenshots must be put in the media folder, and imported Above */
-}
+/**Project screenshots must be put in the media folder,
+ *  and imported Above */
 
-{
-  /** use project information template bellow to add new projects:
+/** use project information template bellow to add new projects:
   {
     name: "",
     image: ,//Imported image 
@@ -17,7 +16,6 @@ import beam from "../media/beam.PNG";
   }
 
 */
-}
 
 let projects = [
   {
@@ -43,6 +41,14 @@ let projects = [
     stack: ["HTML", "css", "JavaScript", "Bootstrap"],
     github: "https://github.com/RobertTk1/weather-app/tree/master",
     website: "https://roberttk1.github.io/weather-app/",
+  },
+  {
+    name: "Tundra",
+    image: tundra, //Imported image
+    about: "ipsum dolor sit amet consectetur adipisicing elit. Eaque, ea?",
+    stack: [" html"],
+    github: "#",
+    website: "#",
   },
 ];
 
