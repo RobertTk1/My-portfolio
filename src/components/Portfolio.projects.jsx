@@ -45,7 +45,8 @@ let projects = [
   {
     name: "Tundra",
     image: tundra, //Imported image
-    about: "ipsum dolor sit amet consectetur adipisicing elit. Eaque, ea?",
+    about:
+      "ipsum hello dolor sit amet consectetur adipisicing elit. Eaque, ea?",
     stack: [" html"],
     github: "#",
     website: "#",
