@@ -8,12 +8,9 @@
 }
 
 .title {
-  position: sticky;
-  top: 1rem;
   font-size: 2.6rem;
   color: rgb(201, 67, 67);
   font-weight: 800;
-  z-index: 3;
   margin-left: 1rem;
   @include responsive(tablet) {
     position: relative;
