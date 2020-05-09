@@ -108,9 +108,9 @@ export default function s() {
 
             <li>GitHub</li>
             <li>Vs Code</li>
-            <li>Sublime Text</li>
             <li>PyCharm</li>
             <li>npm</li>
+            <li>Travis CI</li>
             <li>Bash</li>
             <li>Ubuntu</li>
             <li>MySQL</li>
