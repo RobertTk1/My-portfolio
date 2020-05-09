@@ -146,15 +146,15 @@ main {
 @keyframes arrow-animated {
   0% {
     transform: translateY(0);
-    color: white;
+    color: rgb(245, 9, 9);
   }
   50% {
     transform: translateY(10px);
-    color: rgb(139, 237, 250);
+    color: rgb(53, 172, 241);
   }
   100% {
     transform: translateY(0);
 
-    color: rgb(250, 251, 252);
+    color: rgb(13, 240, 108);
   }
 }

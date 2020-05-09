@@ -2,6 +2,7 @@
 
 .skills {
   min-height: 95vh;
+  padding-top: 1rem;
   @include responsive(phone) {
     padding-top: 1rem;
   }
