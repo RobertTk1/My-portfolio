@@ -29,7 +29,7 @@ export default function About() {
       <div className="about-links">
         <span>
           <a
-            href="https://github.com/RobertTk1?tab=repositories"
+            href="https://github.com/RobertTk1"
             target="_blank"
             rel="noopener noreferrer"
           >

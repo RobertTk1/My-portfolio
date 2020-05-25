@@ -17,7 +17,7 @@ export default function About() {
 
           <span>
             <a
-              href="https://github.com/RobertTk1?tab=repositories"
+              href="https://github.com/RobertTk1"
               target="_blank"
               rel="noopener noreferrer"
             >
