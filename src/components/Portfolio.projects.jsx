@@ -39,7 +39,7 @@ let projects = [
     name: "Portfolio",
     image: portfolio, //Imported image
     about:
-      "This is the curent site you are on. It is responsive and was build from the ground up. Its build was a fun process ",
+      "This is the curent site you are on. It is responsive and was built from the ground up. Its build was a fun process ",
     stack: ["HTML", "SASS", "JSX", "JavaScript", "REACT", "_Scroll"],
     github: "https://github.com/RobertTk1/My-portfolio/tree/master",
     website: "#",
