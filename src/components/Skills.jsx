@@ -8,7 +8,7 @@ export default function s() {
       <div className="list">
         <div className="developement">
           <span className="devtitle">
-            <i className="fas fa-cogs"></i> Developement
+            <i className="fas fa-cogs"></i> Development
           </span>
           <ul>
             {/**List of skills */}
