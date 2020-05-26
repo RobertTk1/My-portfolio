@@ -30,7 +30,7 @@ let projects = [
     name: "Tundra",
     image: tundra, //Imported image
     about:
-      "Tundra is a  responsive one page website. It is an easy to navigate bussiness website with a fun hidden secret.",
+      "Tundra is a responsive one page website. It is an easy to navigate business website with a fun hidden secret.",
     stack: ["HTML", "CSS", "Bootstrap"],
     github: "https://github.com/RobertTk1/Tundra/tree/master",
     website: "https://roberttk1.github.io/Tundra/",
