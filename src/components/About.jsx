@@ -17,7 +17,7 @@ export default function About() {
           engineer I like learning new cutting-edge technologies, I am curious
           and always eager to know what the next step is. I am multilingual and
           fluent in all the languages I know (English, French, Ewe and Kabye). I
-          enjoy learning about entrepreneurship, and I am always thankful for
+          enjoy learning about self-improvement, and I am always thankful for
           the opportunities I get.
         </p>
         <h6>Favorite quote</h6>
