@@ -43,6 +43,11 @@
     }
     @include responsive(phone) {
       margin-top: 5rem;
+      padding: 1rem;
+      font-size: 1.2rem;
+      h6 {
+        font-size: 1.3rem;
+      }
     }
 
     h6 {
