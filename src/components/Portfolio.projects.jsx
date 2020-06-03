@@ -2,6 +2,7 @@ import weather from "../media/weatherio.PNG";
 import tundra from "../media/tundra.jpg";
 import captivate from "../media/captivate.PNG";
 import portfolio from "../media/portfolio.PNG";
+import exploore from "../media/exploore.PNG";
 /**Project screenshots must be put in the media folder,
  *  and imported Above */
 
@@ -35,6 +36,15 @@ let projects = [
     stack: ["HTML", "CSS", "Bootstrap"],
     github: "https://github.com/RobertTk1/Tundra/tree/master",
     website: "https://roberttk1.github.io/Tundra/",
+  },
+  {
+    name: "Exploore",
+    image: exploore, //Imported image
+    about:
+      "This is a fully responsive website for searching through text. This makes use of preloaded text and regular expressions. it was a good practice on getting better at writing different functions.",
+    stack: ["HTML", "SASS", "Bootstrap", "Javascript"],
+    github: "https://github.com/RobertTk1/Exploore/tree/master",
+    website: "https://roberttk1.github.io/Exploore/",
   },
   {
     name: "CAPTIVATE",
