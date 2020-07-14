@@ -11,7 +11,7 @@ export default function About() {
         <h1>Hello.</h1>
         <h2>I am Robert</h2>
         <div className="Info">
-          <h3>Software Developer</h3>
+          <h3>Web Developer</h3>
 
           {/**Link for GitHub contact and linked in */}
 
